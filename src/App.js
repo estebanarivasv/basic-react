@@ -1,3 +1,5 @@
+import { Header } from "./component/Header";
+
 function App() {
 
   const name = "Esteban";
@@ -6,6 +8,8 @@ function App() {
   return (
     // Only one parent element
     <div className="App">
+      <Header />
+      <Header title="Hello" />
       <p>Hola, {name}</p>
       <p>Esta soleado hoy? {day ? 'Yes' : 'No'}</p>
     </div>
