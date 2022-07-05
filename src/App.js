@@ -9,9 +9,6 @@ function App() {
     // Only one parent element
     <div className="App">
       <Header />
-      <Header title="Hello" />
-      <p>Hola, {name}</p>
-      <p>Esta soleado hoy? {day ? 'Yes' : 'No'}</p>
     </div>
   );
 }
